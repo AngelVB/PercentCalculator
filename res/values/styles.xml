@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+   
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+       
+    </style>
+    
+    <style name="style_btn" parent="AppBaseTheme">
+        
+        <item name="android:gravity">center</item>
+        <item name="android:background">#1c282d</item>
+        <item name="android:textColor">#f4f4f4</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:minHeight">60dip</item>
+        <item name="android:maxHeight">100dip</item>
+        <item name="android:textSize">30sp</item>
+       
+      
+       
+    </style>
+    <style name="style_btn2" parent="AppBaseTheme">
+        
+        <item name="android:gravity">center</item>
+        <item name="android:background">#172126</item>
+        <item name="android:textColor">#55d0f8</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:minHeight">60dip</item>
+        <item name="android:maxHeight">100dip</item>
+        <item name="android:textSize">40sp</item>
+       
+       
+    </style>
+   
+
+</resources>
